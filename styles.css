@@ -1,41 +1,63 @@
-body{background-color:#000000}
-h1{font-weight: 800;
-    font-size: 100px;
-    color:aliceblue;
-    text-align: center;
-    margin-top: 130px;
-     }
-h2{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:400;
-    font-size: 40px;
-    color:aliceblue;
-    text-align:center;
-    }
-h3{color:aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: right;
-    margin-right: 100px;
-    }
- .monkey{ font-weight:500;
-    font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:aliceblue;
-    text-align: center;
-    }
-#apple{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
-    color:antiquewhite;
-    list-style-type:square;
-    line-height: 1.5;
-    margin-left: 350px;
-    margin-bottom: 100px;
+#abc{color:beige;
+     font-family: 'mo';
+     font-weight: 200;
+     font-size: 100pt;
 }
+body{background-color:#1464aa}
+h1:hover{background-color:black;}
+.red:hover{background-color:#f25c54}
+.green:hover{background-color:#588157}
+.black:hover{background-color:#4cc9f0}
+
+@font-face {
+    font-family: 'mo';
+    src: url(Modak-Regular.ttf);
+}
+
+h1{font-weight: 800;
+font-size: 100px;
+color:aliceblue;
+text-align: center;
+margin-top: 130px;
+}
+h2{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight:400;
+font-size: 40px;
+color:aliceblue;
+text-align:center;
+}
+h3{color:aqua;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+font-weight: lighter;
+text-align: right;
+margin-right: 100px;
+}
+.monkey{ font-weight:500;
+font-size: 40px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:aliceblue;
+text-align: center;
+}
+#apple{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+font-weight: lighter;
+color:aliceblue;
+list-style-type:square;
+line-height: 1.5;
+margin-left: 350px;
+margin-bottom: 100px;
+}
+img:hover{opacity:0.5}
 img{display:block;
-    width: 500px;
-    height:auto;
-    margin-left:300px;
-    margin-right:center;
-    }
+width: 500px;
+height:auto;
+margin-left:300px;
+margin-right:center;
+}
+.p{
+padding-top:50px;
+padding-right:30px;
+padding-left:30px;
+padding-bottom:50px;
+}
