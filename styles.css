@@ -3,15 +3,18 @@
      font-weight: 200;
      font-size: 100pt;
 }
+
 body{background-color:#1464aa}
 h1:hover{background-color:black;}
 .red:hover{background-color:#f25c54}
 .green:hover{background-color:#588157}
 .black:hover{background-color:#4cc9f0}
+.pa{padding-block: 10px 20px;
 
+}
 @font-face {
     font-family: 'mo';
-    src: url(Modak-Regular.ttf);
+    src: url(../project1/fonts/Modak-Regular.ttf);
 }
 
 h1{font-weight: 800;
